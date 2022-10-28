@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+
+body{
+    background-color: black;
+}
+
+.encabezado{
+    display: inline-block;
+    
+}
+
+header> img{
+    width: 20%;
+    object-fit: contain;
+    margin: 0;
+    padding: 0;
+}
+ 
+
+.header_nav_ul{
+
+    /* QUISE HACERLO CON DISPLAY INLINE BLOCK PERO NO SE PONEN EN FILA */
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    background-color: transparent;
+    list-style: none ;
+    margin: 5px;
+    padding: 5px;
+}
+.header_nav_ul a  {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+}
+
+main{ 
+    min-height: 400px;
+
+}
+
+
+
+/* pagina de inicio */
+
+.mainInicio  {
+    padding: 150px;
+}   
+
+
+
+
+.sect {
+    width: 100%;
+    min-height: 500px;
+}
+
+#sect1 {
+    position: relative;
+    overflow: hidden;
+}
+
+.videoPrincipal> h1{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    font-size: 50px;
+    margin: 60px; 
+}
+
+
+
+
+
+.videoPrincipal> video{
+position: absolute;
+left: 0;
+top: 0;
+height: 100%;
+width: 100%;
+z-index: -1;
+}  
+
+
+.asideInicio{
+
+    margin: 0% 15%;
+    padding: auto;
+}
+
+.fotosyEvento {
+
+    /* display: inline-block; */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+
+    margin: 0% 0%;
+}
+
+
+.proximaWPL {
+color: #ffffff;
+text-align: center;
+text-transform: uppercase;
+font-style: italic;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin: 10px;
+padding: 10px;}
+
+.proximaWPL> img {
+
+    border: 1px solid white;
+    height: 350px;
+    width: 350px;
+    margin: 20px;
+    padding: 20px;
+      
+}
+
+.galeria {
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 10px;
+    padding: 10px;
+}
+
+.galeria> img {
+
+    border: 1px solid white;
+    height: 350px;
+    width: 350px;
+    margin: 20px;
+    padding: 20px;
+      
+}
+
+footer {
+    width: 100%;
+    display: block;
+    margin: 0% 70%;
+  
+} 
+
+.footerLogos> img {
+
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+    padding: 20px;
+} 
+
+/* Pagina eventos  */
+
+.volumenes {
+
+   display: inline-block;
+   margin: 30px;
+   padding: 30px;
+   
+}  
+
+.volumenes> img {
+
+    margin: 0px 60px;
+
+    width: 400px;
+} 
+.volumenes> h2 {
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 10px;
+    padding: 10px;
+}
+
+.eventoActual > h2 {
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 40px;
+    padding: 40px;
+}
+.eventoActual > img {
+
+    width: 100%;
+    margin: auto;
+}
+
+
+
+/* Pagina nosotros */
+
+.nosotrosA > h1 {
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+    margin: 40px;
+    padding: 40px;
+}
+
+.nosotrosA > p {
+    color: #ffffff;
+    text-align: justify;
+    margin: 60px;
+    padding: 60px;
+
+
+}
+
+
+.nosotrosImagen {
+    margin: 80px;
+    padding: 80px;
+
+}
+
+.nosotrosImagen > img {
+
+margin: 0% 10%;
+width: 80%;
+
+}
+
+/* Pagina lineup */
+
+.djs {
+
+    display: inline-block;
+    margin: 30px;
+    padding: 30px;
+
+}
+
+.djs> img {
+    
+    width: 350px;
+} 
+
+.djs> h2 {
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* Pagina contacto */
+
+.mainContacto {
+    margin: auto;
+    padding: 80px;
+    height: 200px;
+    width: 200px;
+
+}
+
+fieldset> legend {
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 10px;
+    padding: 10px;
+
+}
